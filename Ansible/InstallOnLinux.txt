@@ -1,5 +1,6 @@
 -- Verificando se o python está instalado pois é pre requisito para o ansible
 python3 --version
+which python3
 
 -- Adicionando o ansible no repos do linux
 sudo apt-add-repository ppa:ansible/ansible
