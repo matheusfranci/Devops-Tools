@@ -26,7 +26,7 @@ Status: Downloaded newer image for postgres:latest
 docker.io/library/postgres:latest
 
 # Criação e configuração
-docker run -d --name PostgresContainer -p 5432:5432 -e POSTGRES_PASSWORD=dba postgres
+docker run -d --name PostgresContainer -p 5432:5432 -e POSTGRES_PASSWORD=dba --memory 2g postgres
 
 # Verificação
 root@dockerserver:/etc/apt/keyrings# docker ps
