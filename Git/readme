@@ -1,0 +1,19 @@
+PS C:\Users\Matheus\Mongodb_scripts> git init
+Initialized empty Git repository in C:/Users/Matheus/Mongodb_scripts/.git/
+PS C:\Users\Matheus\Mongodb_scripts> git add Comandos_Basicos.sql
+PS C:\Users\Matheus\Mongodb_scripts> git commit
+Aborting commit due to empty commit message.
+PS C:\Users\Matheus\Mongodb_scripts> git commit -m "first commit"
+[master (root-commit) f9ee777] first commit
+ 1 file changed, 24 insertions(+)
+ create mode 100644 Comandos_Basicos.sql
+PS C:\Users\Matheus\Mongodb_scripts> git remote set-url origin https://github.com/matheusfranci/Mongodb.git
+error: No such remote 'origin'
+PS C:\Users\Matheus\Mongodb_scripts> 
+PS C:\Users\Matheus\Mongodb_scripts> git remote set-url origin https://github.com/matheusfranci/Mongodb.git
+error: No such remote 'origin'
+PS C:\Users\Matheus\Mongodb_scripts> git branch
+* master
+PS C:\Users\Matheus\Mongodb_scripts> git remote add origin https://github.com/matheusfranci/Mongodb.git
+PS C:\Users\Matheus\Mongodb_scripts> 
+PS C:\Users\Matheus\Mongodb_scripts> git push -u origin master
